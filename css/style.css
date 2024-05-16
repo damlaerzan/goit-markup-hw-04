@@ -126,6 +126,7 @@ address {
   background-position: center;
   padding: 188px 0;
   max-width: 1440px;
+  display: flex;
 }
 .container {
   width: 1158px;
@@ -173,6 +174,7 @@ address {
   background-color: #ffffff;
   padding: 120px 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -191,6 +193,17 @@ address {
 }
 .two-sec .section-ul .list {
   width: calc((100% -72px) / 4);
+}
+
+.features {
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .section-ul .list .subtitle {
