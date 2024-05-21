@@ -56,7 +56,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #404bbf;
   margin-right: 76px;
 }
 a {
@@ -71,7 +70,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding: 24px 0;
   position: relative;
 }
@@ -138,12 +137,6 @@ address {
   background-position: center;
   padding: 188px 0;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1440px;
-}
 
 .one-sec .container {
   display: flex;
@@ -151,6 +144,10 @@ address {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
 }
 .one-sec .bolum-header {
   font-size: 56px;
@@ -184,6 +181,12 @@ address {
 .two-sec {
   background-color: #ffffff;
   padding: 120px 0;
+}
+.two-sec .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
 }
 
 .visually-hidden {
@@ -287,11 +290,11 @@ address {
   display: flex;
   justify-content: center;
   gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media-list {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   width: 100%;
@@ -302,8 +305,10 @@ address {
   align-items: center;
   justify-content: center;
 }
-.social-link:hover,
-:focus {
+.social-link:hover {
+  background-color: #404bbf;
+}
+.social-link:focus {
   background-color: #404bbf;
 }
 .social-link svg {
@@ -321,6 +326,12 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.four-sec .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1440px;
+}
 .four-sec .container ul {
   display: flex;
   flex-wrap: wrap;
@@ -332,6 +343,7 @@ address {
 }
 .section-ul .list {
   background-color: #ffffff;
+  transform: translateY(0%);
 }
 .section-ul .list:hover {
   box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -393,8 +405,9 @@ address {
 
 .footer .container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -452,11 +465,15 @@ address {
   justify-content: center;
 }
 
-.footer-link:hover,
-:focus {
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
 .footer-icon {
   fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
