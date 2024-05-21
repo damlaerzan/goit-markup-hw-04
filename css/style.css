@@ -223,11 +223,6 @@ address {
   margin-bottom: 8px;
 }
 
-.features-icon {
-  width: 64px;
-  height: 64px;
-}
-
 .section-ul .list .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -317,8 +312,6 @@ address {
 }
 
 .social-media {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 
@@ -477,6 +470,4 @@ address {
 
 .footer-icon {
   fill: #f4f4fd;
-  width: 24px;
-  height: 24px;
 }
