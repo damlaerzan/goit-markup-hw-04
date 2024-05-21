@@ -222,7 +222,8 @@ address {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-.features svg {
+
+.features-icon {
   width: 64px;
   height: 64px;
 }
@@ -314,10 +315,7 @@ address {
 .social-link:focus {
   background-color: #404bbf;
 }
-.social-link svg {
-  width: 16px;
-  height: 16px;
-}
+
 .social-media {
   width: 16px;
   height: 16px;
@@ -409,8 +407,8 @@ address {
 .footer .container {
   display: flex;
   align-items: center;
-  width: 1158px;
-  margin: 0 auto;
+  width: 1440px;
+  margin-right: 120px;
   padding: 0 15px;
   align-items: baseline;
 }
@@ -426,14 +424,15 @@ address {
   margin-right: 76px;
 }
 
+.footer .logo .span {
+  color: #f4f4fd;
+}
+
 .footer .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-.footer .logo .span {
-  color: #f4f4fd;
 }
 
 .footer-text {
