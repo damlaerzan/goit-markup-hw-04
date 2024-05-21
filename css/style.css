@@ -322,7 +322,7 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.four-sec .footer-div {
+.four-sec .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -397,28 +397,19 @@ address {
   padding: 100px 0;
 }
 
-.footer .footer-div {
-  display: flex;
-  align-items: center;
-  width: 1440px;
-  margin-right: 120px;
-  padding: 0 15px;
-}
-.footer .text-div {
-  display: flex;
-  align-items: center;
-  width: 1440px;
-  margin-right: 120px;
-  padding: 15px 15px;
-}
 .footer .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  margin-right: 120px;
+  padding: 0 15px;
+  align-items: baseline;
+  width: 1440px;
+  margin: 0 auto;
   gap: 10px;
 }
 
-.footer .footer-div .logo {
+.footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -426,14 +417,13 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #404bbf;
-  margin-right: 76px;
 }
 
 .footer .logo .span {
   color: #f4f4fd;
 }
 
-.footer .text {
+.footer .container .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
