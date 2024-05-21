@@ -322,7 +322,7 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.four-sec .container {
+.four-sec .footer-div {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -397,16 +397,28 @@ address {
   padding: 100px 0;
 }
 
-.footer .container {
+.footer .footer-div {
   display: flex;
   align-items: center;
   width: 1440px;
   margin-right: 120px;
   padding: 0 15px;
-  align-items: baseline;
+}
+.footer .text-div {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  margin-right: 120px;
+  padding: 15px 15px;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.footer .logo {
+.footer .footer-div .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
