@@ -344,7 +344,6 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  transform: translateY(0%);
 }
 .section-header {
   margin-bottom: 72px;
