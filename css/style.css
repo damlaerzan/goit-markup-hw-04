@@ -396,6 +396,9 @@ address {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-div {
+  margin-right: 120px;
+}
 
 .footer .container {
   display: flex;
